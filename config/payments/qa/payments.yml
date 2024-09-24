@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: testApp
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+logging:
+level:
+ROOT: DEBUG
+org.springframework.cloud.config: DEBUG
