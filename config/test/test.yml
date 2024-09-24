@@ -6,6 +6,6 @@ eureka:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
 logging:
-level:
-ROOT: DEBUG
+  level:
+    ROOT: DEBUG
 org.springframework.cloud.config: DEBUG
